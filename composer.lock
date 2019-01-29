@@ -1,0 +1,77 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "cabd6e31366381f750c34784ec5a5e6c",
+    "packages": [
+        {
+            "name": "npm-asset/sortablejs",
+            "version": "1.8.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/SortableJS/Sortable.git",
+                "reference": "41e339483d70618752d091d77d12c35c299e3af0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/SortableJS/Sortable/zipball/41e339483d70618752d091d77d12c35c299e3af0",
+                "reference": "41e339483d70618752d091d77d12c35c299e3af0",
+                "shasum": ""
+            },
+            "require-dev": {
+                "npm-asset/gulp": ">=4.0.0,<5.0.0",
+                "npm-asset/gulp-each": ">=0.5.0,<0.6.0",
+                "npm-asset/gulp-rename": ">=1.4.0,<2.0.0",
+                "npm-asset/gulp-uglify": ">=3.0.1,<4.0.0",
+                "npm-asset/http-server": ">=0.9.0,<0.10.0",
+                "npm-asset/pump": ">=3.0.0,<4.0.0"
+            },
+            "type": "npm-asset-library",
+            "extra": {
+                "npm-asset-files": [
+                    "Sortable.js",
+                    "Sortable.min.js"
+                ],
+                "npm-asset-main": "Sortable.js",
+                "npm-asset-repository": {
+                    "type": "git",
+                    "url": "git://github.com/SortableJS/Sortable.git"
+                },
+                "npm-asset-scripts": {
+                    "http-server": "http-server -s ./",
+                    "prepublish": "gulp build"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                "Konstantin Lebedev <ibnRubaXa@gmail.com>",
+                "Owen Mills <owen23355@gmail.com>"
+            ],
+            "description": "Minimalist JavaScript library for reorderable drag-and-drop lists on modern browsers and touch devices. No jQuery. Supports AngularJS and any CSS library, e.g. Bootstrap.",
+            "keywords": [
+                "angular",
+                "drag",
+                "meteor",
+                "mixin",
+                "ng-sortable",
+                "react",
+                "reorder",
+                "sortable",
+                "vue"
+            ],
+            "time": "2019-01-16T00:19:04+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

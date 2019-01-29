@@ -1,0 +1,29 @@
+{
+    "name": "eluhr/yii2-sortablejs",
+    "description": "Yii2 Wrapper for SortableJS/Sortable",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Elias Luhr",
+            "email": "elias.luhr@gmail.com"
+        }
+    ],
+    "require": {
+        "npm-asset/sortablejs": "^1.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "eluhr\\sortablejs\\": "src/"
+        }
+    },
+    "config": {
+        "fxp-asset": {
+            "repositories": {
+                "npm-asset/sortablejs": {
+                    "type": "npm-vcs",
+                    "url": "https://github.com/SortableJS/Sortable.git"
+                }
+            }
+        }
+    }
+}
