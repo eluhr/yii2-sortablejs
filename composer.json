@@ -20,7 +20,7 @@
         "fxp-asset": {
             "repositories": {
                 "npm-asset/sortablejs": {
-                    "type": "npm-vcs",
+                    "type": "git",
                     "url": "https://github.com/SortableJS/Sortable.git"
                 }
             }
