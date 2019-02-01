@@ -9,24 +9,11 @@
         }
     ],
     "require": {
-        "npm-asset/sortablejs": "1.8.1"
+        "bower-asset/sortablejs": "1.8.1"
     },
     "autoload": {
         "psr-4": {
             "eluhr\\sortablejs\\": "src/"
         }
-    },
-    "repositories": [
-        {
-            "type": "package",
-            "package": {
-                "name": "npm-asset/sortablejs",
-                "version": "1.8.1",
-                "dist": {
-                    "url": "https://registry.npmjs.org/sortablejs/-/sortablejs-1.8.1.tgz",
-                    "type": "tar"
-                }
-            }
-        }
-    ]
+    }
 }
