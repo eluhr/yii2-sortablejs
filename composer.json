@@ -9,7 +9,7 @@
         }
     ],
     "require": {
-        "npm-asset/sortablejs": "^1.8"
+        "npm-asset/sortablejs": "1.8.1"
     },
     "autoload": {
         "psr-4": {
