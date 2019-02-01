@@ -4,125 +4,18 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5643e665cda525f295ae00f411fe852f",
+    "content-hash": "1c6b6e47c15095d19e35b3c969ff6be5",
     "packages": [
-        {
-            "name": "fxp/composer-asset-plugin",
-            "version": "v1.4.4",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/fxpio/composer-asset-plugin.git",
-                "reference": "0d07328eef6e6f3753aa835fd2faef7fed1717bf"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/fxpio/composer-asset-plugin/zipball/0d07328eef6e6f3753aa835fd2faef7fed1717bf",
-                "reference": "0d07328eef6e6f3753aa835fd2faef7fed1717bf",
-                "shasum": ""
-            },
-            "require": {
-                "composer-plugin-api": "^1.0",
-                "php": ">=5.3.3"
-            },
-            "require-dev": {
-                "composer/composer": "^1.6.0"
-            },
-            "type": "composer-plugin",
-            "extra": {
-                "class": "Fxp\\Composer\\AssetPlugin\\FxpAssetPlugin",
-                "branch-alias": {
-                    "dev-master": "1.4-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Fxp\\Composer\\AssetPlugin\\": ""
-                },
-                "exclude-from-classmap": [
-                    "/Tests/"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "François Pluchino",
-                    "email": "francois.pluchino@gmail.com"
-                }
-            ],
-            "description": "NPM/Bower Dependency Manager for Composer",
-            "homepage": "https://github.com/fxpio/composer-asset-plugin",
-            "keywords": [
-                "asset",
-                "bower",
-                "composer",
-                "dependency manager",
-                "nodejs",
-                "npm",
-                "package"
-            ],
-            "time": "2018-07-02T11:37:17+00:00"
-        },
         {
             "name": "npm-asset/sortablejs",
             "version": "1.8.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/SortableJS/Sortable.git",
-                "reference": "41e339483d70618752d091d77d12c35c299e3af0"
-            },
             "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/SortableJS/Sortable/zipball/41e339483d70618752d091d77d12c35c299e3af0",
-                "reference": "41e339483d70618752d091d77d12c35c299e3af0",
-                "shasum": ""
+                "type": "tar",
+                "url": "https://registry.npmjs.org/sortablejs/-/sortablejs-1.8.1.tgz",
+                "reference": null,
+                "shasum": null
             },
-            "require-dev": {
-                "npm-asset/gulp": ">=4.0.0,<5.0.0",
-                "npm-asset/gulp-each": ">=0.5.0,<0.6.0",
-                "npm-asset/gulp-rename": ">=1.4.0,<2.0.0",
-                "npm-asset/gulp-uglify": ">=3.0.1,<4.0.0",
-                "npm-asset/http-server": ">=0.9.0,<0.10.0",
-                "npm-asset/pump": ">=3.0.0,<4.0.0"
-            },
-            "type": "npm-asset-library",
-            "extra": {
-                "npm-asset-files": [
-                    "Sortable.js",
-                    "Sortable.min.js"
-                ],
-                "npm-asset-main": "Sortable.js",
-                "npm-asset-repository": {
-                    "type": "git",
-                    "url": "git://github.com/SortableJS/Sortable.git"
-                },
-                "npm-asset-scripts": {
-                    "http-server": "http-server -s ./",
-                    "prepublish": "gulp build"
-                }
-            },
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                "Konstantin Lebedev <ibnRubaXa@gmail.com>",
-                "Owen Mills <owen23355@gmail.com>"
-            ],
-            "description": "Minimalist JavaScript library for reorderable drag-and-drop lists on modern browsers and touch devices. No jQuery. Supports AngularJS and any CSS library, e.g. Bootstrap.",
-            "keywords": [
-                "angular",
-                "drag",
-                "meteor",
-                "mixin",
-                "ng-sortable",
-                "react",
-                "reorder",
-                "sortable",
-                "vue"
-            ],
-            "time": "2019-01-16T00:19:04+00:00"
+            "type": "library"
         }
     ],
     "packages-dev": [],
