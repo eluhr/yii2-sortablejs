@@ -9,7 +9,7 @@
         }
     ],
     "require": {
-        "bower-asset/sortablejs": "1.8.1"
+        "bower-asset/sortablejs": "^1.10.2"
     },
     "autoload": {
         "psr-4": {
