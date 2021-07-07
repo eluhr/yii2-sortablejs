@@ -18,7 +18,7 @@ use yii\web\AssetBundle;
  */
 class SortableJsAssetBundle extends AssetBundle
 {
-    public $sourcePath = '@vendor/bower/sortablejs';
+    public $sourcePath = '@bower/sortablejs';
 
     public $js = [
         'Sortable.min.js'
